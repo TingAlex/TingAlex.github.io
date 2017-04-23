@@ -83,7 +83,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>Debian</p>
+<p>Make sure you’ve installed all dependencies for building ss-qt5 by sudo apt-get install qt5-qmake qtbase5-dev libqrencode-dev libqtshadowsocks-dev libappindicator-dev libzbar-dev libbotan1.10-dev</p>
+<p>Now run the command below, you’ll get a deb package in upper directory.</p>
+<p>dpkg-buildpackage -uc -us -b<br>Then, install it by sudo dpkg -i shadowsocks-qt5-<ver_arch_etc>.deb.</ver_arch_etc></p>
+
       
     </div>
     <footer class="article-footer">

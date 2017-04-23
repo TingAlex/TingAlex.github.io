@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tingalex.github.io/"/>
-  <updated>2017-04-22T13:40:18.385Z</updated>
+  <updated>2017-04-23T04:10:53.166Z</updated>
   <id>http://tingalex.github.io/</id>
   
   <author>
@@ -20,9 +20,18 @@
     <link href="http://tingalex.github.io/2017/04/22/Hello/"/>
     <id>http://tingalex.github.io/2017/04/22/Hello/</id>
     <published>2017-04-22T13:40:18.000Z</published>
-    <updated>2017-04-22T13:40:18.385Z</updated>
+    <updated>2017-04-23T04:10:53.166Z</updated>
+    
+    <content type="html"><![CDATA[<p>Debian</p>
+<p>Make sure you’ve installed all dependencies for building ss-qt5 by sudo apt-get install qt5-qmake qtbase5-dev libqrencode-dev libqtshadowsocks-dev libappindicator-dev libzbar-dev libbotan1.10-dev</p>
+<p>Now run the command below, you’ll get a deb package in upper directory.</p>
+<p>dpkg-buildpackage -uc -us -b<br>Then, install it by sudo dpkg -i shadowsocks-qt5-<ver_arch_etc>.deb.</ver_arch_etc></p>
+]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;Debian&lt;/p&gt;
+&lt;p&gt;Make sure you’ve installed all dependencies for building ss-qt5 by sudo apt-get install qt5-qmake qtbase5-dev libqrencode-d
     
     </summary>
     
